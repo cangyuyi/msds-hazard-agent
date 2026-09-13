@@ -1,0 +1,8 @@
+# Source material and local OCR artifacts are not public repository content.
+*.pdf
+eval/ocr_evidence_v2/
+eval/results_v2.csv
+eval/evaluation_v2.csv
+work/
+__pycache__/
+*.pyc
