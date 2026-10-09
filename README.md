@@ -5,9 +5,9 @@
 ![OCR](https://img.shields.io/badge/Engine-Tesseract_OCR-orange)
 ![RAG](https://img.shields.io/badge/Retrieval-RAG-purple)
 ![Safety](https://img.shields.io/badge/Safety-Human_in_the_Loop-red)
-![Demo](https://img.shields.io/badge/Demo-Live-green)
 
-**👉 [在线体验 Demo](https://msds-hazard-agent.streamlit.app/)**
+**▶️ 本地运行 Demo**：`cd demo && pip install -r requirements.txt && streamlit run app.py`
+（Demo 使用仓库内样例数据，不保存上传文件，不连接任何外部系统）
 
 面向职业卫生人员的 AI 辅助识别工作流：从 MSDS 的成分章节提取 CAS、含量和页码证据，匹配职业病危害因素知识表，并把不确定项交回人工复核。
 
