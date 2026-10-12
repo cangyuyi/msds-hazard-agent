@@ -1,5 +1,7 @@
 # MSDS 职业危害识别 Agent
 
+> **安全边界**：知识表“未命中”只表示未在当前表中找到记录，**不等于无职业危害**；OCR、CAS 匹配和高毒提示均应由专业人员对照原始 MSDS 与现行规范复核，不能用于自动出具合规结论。
+
 ![Python](https://img.shields.io/badge/Python-3.10+-blue)
 ![License](https://img.shields.io/badge/License-MIT-green)
 ![OCR](https://img.shields.io/badge/Engine-Tesseract_OCR-orange)
